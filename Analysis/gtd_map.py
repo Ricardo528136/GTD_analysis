@@ -19,7 +19,7 @@ for _, row in gdf.iterrows():
     folium.CircleMarker(
         location=[row['lat'], row['lon']],
         popup=folium.Popup(
-            f"<strong>Date:</strong> {row['date'].strftime('%Y-%m-%d')}<br>"
+            f"<strong>Date:</strong> {row['date']}<br>"
             f"<strong>Country:</strong> {row['country']}<br>"
             f"<strong>City:</strong> {row['city']}<br>"
             f"<strong>Attack Type:</strong> {row['attack_type']}<br>"
@@ -36,7 +36,7 @@ for _, row in gdf.iterrows():
             icon='info-sign')
     ).add_to(gtd_map)
 
-display(gtd_map)
-
 # Save the map to an HTML file
 gtd_map.save('Plots/gtd_map.html')
+
+print("Map has been created and saved as 'Plots/gtd_map.html'. You can open this file in a web browser to view the interactive map.")
