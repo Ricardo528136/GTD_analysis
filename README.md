@@ -11,7 +11,7 @@ This project highlights:
 
 ---
 
-## 🛠 Tools & Technologies Used
+## Tools & Technologies Used
 
 | Tool            | Purpose                         |
 |-----------------|----------------------------------|
@@ -38,9 +38,13 @@ This project highlights:
 
 ## Key Insights
 
+- Terrorist activity peaked between 2013–2015 with the highest number of incidents and casualties.
+- Iraq, Pakistan, and Afghanistan are among the most affected countries.
+- The most common attack type is **bombings/explosions**.
+
 ---
 
-## 🧼 Data Source
+## Data Source
 
 - [Global Terrorism Database (GTD)](https://www.start.umd.edu/gtd/)
 
